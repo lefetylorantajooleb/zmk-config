@@ -1,5 +1,4 @@
 #include "keys_hu_101.h"
-
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
@@ -9,14 +8,14 @@
 
         layer_0 {
             bindings = <
-&kp ESC                     &kp       &kp                 &kp     &kp     &kp F5   &kp F6     &kp                  &kp        &kp ESCAPE  &kp F4     &kp        &kp    &kp FSLH
-&kp STAR  &kp MINUS  &kp    &kp       &kp        &kp      &kp             &kp      &kp        &kp       &kp        &kp        &kp N7      &kp N8     &kp N9
-&kp PLUS                    &kp N4    &kp F12    &kp F11  &kp N0  &kp N1  &kp F10  &kp N3     &kp N5    &kp N6     &kp N7     &kp N8      &kp N9     &kp
-&kp F1    &kp               &kp       &kp BSPC   &kp N1   &kp N2          &kp F9   &kp RET    &kp TAB   &kp F8     &kp W      &kp E       &kp F2     &kp T
-&kp Z                       &kp U     &kp I      &kp O    &kp P   &kp              &kp        &kp RET   &kp N0     &kp COMMA  &kp         &kp A      &kp S
-&kp D                &kp F  &kp G     &kp H      &kp J                    &kp K    &kp L      &kp       &kp F7     &kp        &kp         &kp F3     &kp Y      &kp X
-&kp C                       &kp V     &kp B      &kp N    &kp M                    &kp COMMA  &kp DOT   &kp MINUS  &kp        &kp UP      &kp LCTRL  &kp
-                            &kp LALT  &kp SPACE  &kp      &kp     &kp     &kp                 &kp LEFT             &kp DOWN                          &kp RIGHT
+&kp HU_I_ACUTE                                      &kp KP_COMMA     &kp KP_N0                         &kp UP_ARROW     &kp LEFT_ALT     &kp F5         &kp F6          &kp HU_A_ACUTE                     &kp HU_H   &kp ESCAPE  &kp F4     &kp HU_G   &kp LWIN            &kp RWIN
+&kp HU_X        &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp KP_ASTERISK  &kp KP_DIVIDE    &kp KP_NUMLOCK   &kp PAUSE_BREAK                   &kp ENTER      &kp HU_COMMA    &kp HU_U_DOUBLE_ACUTE  &kp HU_DOT  &kp HU_M   &kp HU_Y    &kp HU_C   &kp HU_V
+&kp NUMBER_2                                        &kp PAGE_DOWN    &kp F12          &kp F11          &kp END          &kp PRINTSCREEN  &kp F10        &kp HU_N8       &kp HU_O_UMLAUT        &kp HU_N9   &kp HU_N7  &kp HU_N1   &kp HU_N3  &kp HU_N4
+&kp F1          &kp LEFT_CONTROL                    &kp PAGE_UP      &kp INSERT       &kp DELETE       &kp HOME                          &kp F9         &kp HU_O_ACUTE  &kp HU_U_UMLAUT        &kp F8      &kp HU_N6  &kp HU_N0   &kp F2     &kp HU_N5
+&kp HU_W                                            &kp KP_NUMBER_9  &kp KP_NUMBER_8  &kp KP_NUMBER_7  &kp KP_PLUS      &kp SCROLLLOCK                  &kp HU_I        &kp HU_P               &kp HU_O    &kp HU_U   &kp HU_Q    &kp HU_E   &kp HU_R
+&kp CAPSLOCK                       &kp LEFT_SHIFT   &kp KP_NUMBER_6  &kp KP_NUMBER_5  &kp KP_NUMBER_4                                    &kp BACKSPACE  &kp HU_U_ACUTE  &kp HU_O_DOUBLE_ACUTE  &kp F7      &kp HU_Z   &kp TAB     &kp F3     &kp HU_T   &kp K_CONTEXT_MENU
+&kp HU_S                                            &kp KP_NUMBER_3  &kp KP_NUMBER_2  &kp KP_NUMBER_1  &kp KP_ENTER                                     &kp HU_K        &kp HU_E_ACUTE         &kp HU_L    &kp HU_J   &kp HU_A    &kp HU_D   &kp HU_F
+                                                    &kp KP_MINUS     &kp RIGHT_ARROW  &kp DOWN_ARROW   &kp LEFT_ARROW   &kp RIGHT_ALT    &kp SPACE                      &kp HU_MINUS                       &kp HU_N                          &kp HU_B
             >;
         };
     };
