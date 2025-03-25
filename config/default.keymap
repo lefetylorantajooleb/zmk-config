@@ -1,6 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <keymap_hu.h>
+#include <keys_hu.h>
 
 / {
     keymap {
