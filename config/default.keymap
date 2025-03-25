@@ -1,4 +1,5 @@
 #include keys_hu_101.h
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
@@ -8,7 +9,14 @@
 
         layer_0 {
             bindings = <
-&kp ESC  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp FSLH  &kp STAR  &kp MINUS  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N7  &kp N8  &kp N9  &kp PLUS  &kp N4  &kp N5  &kp N6  &kp N0  &kp N1  &kp N2  &kp N3  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &trans  &trans  &trans  &trans  &kp BSPC  &kp N1  &kp N2  &kp N3  &kp RET  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Z  &kp U  &kp I  &kp O  &kp P  &trans  &trans  &kp RET  &kp N0  &kp COMMA  &trans  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &trans  &trans  &trans  &trans  &trans  &kp Y  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp MINUS  &trans  &kp UP  &kp LCTRL  &trans  &kp LALT  &kp SPACE  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT
+&kp ESC                     &kp       &kp                 &kp     &kp     &kp F5   &kp F6     &kp                  &kp        &kp ESCAPE  &kp F4     &kp        &kp    &kp FSLH
+&kp STAR  &kp MINUS  &kp    &kp       &kp        &kp      &kp             &kp      &kp        &kp       &kp        &kp        &kp N7      &kp N8     &kp N9
+&kp PLUS                    &kp N4    &kp F12    &kp F11  &kp N0  &kp N1  &kp F10  &kp N3     &kp N5    &kp N6     &kp N7     &kp N8      &kp N9     &kp
+&kp F1    &kp               &kp       &kp BSPC   &kp N1   &kp N2          &kp F9   &kp RET    &kp TAB   &kp F8     &kp W      &kp E       &kp F2     &kp T
+&kp Z                       &kp U     &kp I      &kp O    &kp P   &kp              &kp        &kp RET   &kp N0     &kp COMMA  &kp         &kp A      &kp S
+&kp D                &kp F  &kp G     &kp H      &kp J                    &kp K    &kp L      &kp       &kp F7     &kp        &kp         &kp F3     &kp Y      &kp X
+&kp C                       &kp V     &kp B      &kp N    &kp M                    &kp COMMA  &kp DOT   &kp MINUS  &kp        &kp UP      &kp LCTRL  &kp
+                            &kp LALT  &kp SPACE  &kp      &kp     &kp     &kp                 &kp LEFT             &kp DOWN                          &kp RIGHT
             >;
         };
     };
