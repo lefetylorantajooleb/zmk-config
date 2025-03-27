@@ -1,0 +1,9 @@
+if SHIELD_G80_11900
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "CherryG80-11900"
+config SPI
+    default y
+
+endif
